@@ -1,0 +1,179 @@
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+body{
+font: 100%/125% “Times New Roman”, sans-serif;
+margin-right: 10%;
+margin-left: 10%;
+padding: 0px;
+}
+	#wrapper{
+		margin: 10px;
+		padding: 0px;
+		width: 100%;
+		border-radius: 8px;
+	}
+	#header {
+
+		background-color: #0033CC;
+		border-radius: 10px;
+		height: 100px;
+		margin-bottom: 25px;
+
+}
+	#header p{
+		color: white;
+		font-family: Arial;
+		font-size: 3rem;
+		text-align: center;
+		padding-top: 35px;
+		font-weight: bold;
+		}
+
+	#footer {
+		clear: both;
+		text-align: center;
+		margin-top: 25px;
+		background-color: #0033CC;
+		border-radius: 6px;
+		}
+	#footer p{
+		font-size: 14pt;
+		font-style: italic;
+		color: white;
+		padding: 3px;
+		}
+
+
+	#left {
+
+		float: left;
+		width: 10%;
+
+
+		}
+	#left ul{
+	 	background-color: #006699;
+		width: 80%;
+		padding-top: 7;
+		padding-bottom: 7;
+		margin: 0;
+		padding-left: 0;
+		list-style-type: none;
+		border-radius: 10px;
+		}
+	#left li a{
+		
+    	display:block;
+    	color: white;
+    	padding-top: 10;
+		padding-bottom: 10;
+		padding-left: 10;
+		text-decoration: none;
+		font-weight: bold;
+    }
+
+	#left li a:hover:not(.active){
+		background-color:#99CCCC ;
+		color: black;
+		border-radius: 8px;
+		}
+
+	#left 
+		li a.active{
+		background-color: white;
+		color: white;
+		 border-radius: 8px;
+		cursor: auto;
+		}
+
+	#right {
+		float: left;
+		width: 80%;
+		margin-left: 20px;
+
+		}
+	#right p{
+		margin-right: 0px;
+		font-size: 16px;
+		}
+	#right img{
+		margin: auto;
+		display: block;
+		}
+	#right table{
+		font-family: Arial, Helvetica, sans-serif;
+		border-collapse: collapse;
+		width: 100%;
+		margin-bottom: 50px;
+		}
+	#right table td, #right table th {
+		border: 2px solid grey;
+		padding: 8px;
+		}
+	#right table tr:nth-child(even){
+		background-color: #f2f2f2;
+		}
+	#right table tr:hover {background-color: #ddd;}
+	#right table th {
+		padding-top: 12px;
+		padding-bottom: 12px;
+		text-align: left;
+		background-color: #006699;
+		color: white;
+		}
+	#right table td a{
+		text-decoration: none;
+		color: blue;
+		font-style: italic;
+		}
+
+
+	.box {
+		float: left;
+		width: 140;
+		height: 100px;
+		border-radius: 8px;
+		background-color: #EEEEEE;
+		}
+	.box img{
+		margin-left: 20px;
+		z-index: 999;
+		cursor: progress;
+		}
+	
+	 ul#menu {
+	 	text-align: center;
+		display: flex;
+    	background: #006699;
+    	height: 30px;
+    	border-radius: 8px;
+    	padding-top: 5;
+    	padding-bottom: 5;
+    	margin: 0;
+    	padding-left: 10;
+    	list-style-type: none;
+	}
+
+	#menu li a{
+		padding: 5px 10px;
+    	display: block;
+    	color: white;
+	}
+	#menu li a:hover:not(.active){
+		background-color: #99CCCC;
+		color: white;
+		border-radius: 8px;
+	}
+	#menu li a.active{
+		background-color: #EEEEEE;
+		color: #000000;
+		border-radius: 8px;
+		cursor: auto;
+	}
+	
+
